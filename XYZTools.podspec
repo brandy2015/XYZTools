@@ -27,10 +27,10 @@ Pod::Spec.new do |s|
   # 项目的地址（这个必须写正确）
   # 其他关联方式
   # 将这个Pod版本与Git仓库中某个commit绑定
-  # s.source       = { :git => "http://gitlab.caiqr.com/renpengjie/UIBasicsKit.git", :commit => 56basfet }
+  # s.source       = { :git => "https://github.com/brandy2015/XYZTools.git", :commit => 56basfet }
   
-  # s.source       = { :git => "http://gitlab.caiqr.com/renpengjie/UIBasicsKit.git", :tag => 1.0.0 }
-  s.source       = { :git => "http://gitlab.caiqr.com/renpengjie/UIBasicsKit.git", :tag => s.version }
+   s.source       = { :git => "https://github.com/brandy2015/XYZTools.git", :tag => s.version }
+  #s.source       = { :git => "http://gitlab.caiqr.com/renpengjie/UIBasicsKit.git", :tag => s.version }
   
   # 需要包含的源文件
   # 源文件的其他写法
@@ -43,8 +43,12 @@ Pod::Spec.new do |s|
   # 不能直接匹配根目录下所有文件，直接匹配会把AppDelegate、Main.storyboard都引入，
   # 匹配单个文件
   # 引用多个用逗号隔开
-  s.source_files  = "TSBasicsKit/ViewController.swift"
+  #s.source_files  = "TSBasicsKit/ViewController.swift"
   
+
+  s.source_files = "XYZTools/Source/*"
+  
+
   #资源文件
   #s.resources          = "TSBasicsKit/TSTest.bundle"
 
@@ -58,7 +62,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   
   # 依赖库，不能依赖未发布的库
-  s.dependency  = 'AFNetworking'
+  s.dependency  = 'MBProgressHUD'
   
   # 如果需要多个依赖库,不是用逗号分隔
   # s.dependency  = 'SnapKit'
