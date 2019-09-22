@@ -19,9 +19,9 @@ Pod::Spec.new do |s|
   # 许可证 
   s.license              = { :type => "MIT", :file => "LICENSE" }
   
-  // 作者
+  #// 作者
   s.author             =  { "zhangqian" => "zhangqianbrandy2012@gmail.com" }  
-  // 社交地址
+  #// 社交地址
   s.social_media_url   = "http://weibo.com/u/5716230621"
 
   # 项目的地址（这个必须写正确）
@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   
   # 依赖库，不能依赖未发布的库
-  s.dependency  = 'MBProgressHUD'
+  s.dependency 'MBProgressHUD'
   
   # 如果需要多个依赖库,不是用逗号分隔
   # s.dependency  = 'SnapKit'
