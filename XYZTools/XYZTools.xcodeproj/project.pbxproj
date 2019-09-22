@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		D6879F41233758A200A34385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6879F3F233758A200A34385 /* Main.storyboard */; };
 		D6879F43233758A200A34385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6879F42233758A200A34385 /* Assets.xcassets */; };
 		D6879F46233758A200A34385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6879F44233758A200A34385 /* LaunchScreen.storyboard */; };
+		D6879F4F23375CAA00A34385 /* Yes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6879F4E23375CAA00A34385 /* Yes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D6879F42233758A200A34385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6879F45233758A200A34385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6879F47233758A200A34385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6879F4E23375CAA00A34385 /* Yes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				C8E3CC09D7A916E8DFA670B2 /* Pods-XYZTools.debug.xcconfig */,
 				863A3CFF3AA88F3C71D75AE8 /* Pods-XYZTools.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -96,6 +97,7 @@
 		D6879F4D2337599900A34385 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D6879F4E23375CAA00A34385 /* Yes.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -216,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6879F3E233758A200A34385 /* ViewController.swift in Sources */,
+				D6879F4F23375CAA00A34385 /* Yes.swift in Sources */,
 				D6879F3A233758A200A34385 /* AppDelegate.swift in Sources */,
 				D6879F3C233758A200A34385 /* SceneDelegate.swift in Sources */,
 			);
